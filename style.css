@@ -50,6 +50,7 @@ main .opciones .group-opciones {
     display: flex;
     justify-content: center;
     position: relative;
+    text-decoration: none;
 }
 
 
