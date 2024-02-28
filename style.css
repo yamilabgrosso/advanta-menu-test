@@ -283,12 +283,15 @@ main .beneficios div {
         font-size: 20px;
 
     }
-}
 
-/* @media (min-width: 576px) {
 
-    .container,
-    .container-sm {
-        max-width: 700px;
+    main .comida .img-comida {
+
+        width: 45%;
     }
-} */
+
+    main .comida .menu-comida {
+
+        width: 55%;
+    }
+}
