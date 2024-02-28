@@ -202,11 +202,11 @@ main .beneficios div {
 
 }
 
-.menu-fin{
+.menu-fin {
     width: 100%;
 }
 
-.comida img{
+.comida img {
     width: 100%;
 }
 
@@ -244,7 +244,7 @@ main .beneficios div {
 
 
 
-@media (max-width:500px) {
+@media (max-width:600px) {
 
     main .vaso img {
         height: 210px;
@@ -258,10 +258,31 @@ main .beneficios div {
         width: 100%;
     }
 
-    .opciones p{
+    .opciones p {
         font-size: 13px;
     }
 
+    * {
+        font-size: 13px;
+
+    }
+
+    .text-resaltado {
+        font-size: 12px;
+    }
+
+    .text-principal {
+        font-size: 18px;
+    }
+
+    .text-secundario {
+        font-size: 15px;
+    }
+
+    .text-terciario {
+        font-size: 20px;
+
+    }
 }
 
 /* @media (min-width: 576px) {
