@@ -25,13 +25,18 @@
 }
 
 body {
-    background-color: #000000;
+    background-color: #070707;
 
+}
+
+.barra{
+    position: absolute;
+    left: 4%;
 }
 
 header {
     position: relative;
-    background-image: url(./images/img-header.png);
+    background-image: url(./images/img-header-2.png);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
@@ -49,7 +54,7 @@ header div{
 }
 
 h1{
-    font-size: 16px;
+    font-size: 23px;
 }
 
 header p{
@@ -352,6 +357,10 @@ footer p{
     header div{
         width: auto;
     }
+
+    header div .pasion {
+        width: 55%;
+    }
 }
 
 
@@ -385,12 +394,13 @@ footer p{
     }
 
     h1{
-        font-size: 11px;
+        font-size: 14px;
     }
 
-    header p{
-        font-size: 13px;
-        padding-top: 13%;
+    header p {
+        font-size: 12px;
+        padding-top: 10%;
+        margin: 0;
     }
 
     .separador {
@@ -433,4 +443,10 @@ footer p{
     footer p{
         font-size: 12px;
     }
+
+    .barra{
+        left: 4%;
+        width: 7%;
+    }
+
 }
